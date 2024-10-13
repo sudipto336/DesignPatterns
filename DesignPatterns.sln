@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemo", "ObserverDemo\ObserverDemo.csproj", "{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOF", "GOF", "{DB2B826F-D395-4818-84B0-E56AD39FE3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{82CAAA93-1B7F-4552-B761-BD9173FA4993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer4", "Observer4", "{2BF2C845-0B8A-43CE-9AE9-6140F38796AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B80D43D2-DCB5-4D9F-A9EF-1F822CC2FE1B} = {2BF2C845-0B8A-43CE-9AE9-6140F38796AC}
+		{82CAAA93-1B7F-4552-B761-BD9173FA4993} = {DB2B826F-D395-4818-84B0-E56AD39FE3FD}
+		{2BF2C845-0B8A-43CE-9AE9-6140F38796AC} = {82CAAA93-1B7F-4552-B761-BD9173FA4993}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A326E494-5136-456F-9554-0B78264F5418}
+	EndGlobalSection
+EndGlobal
